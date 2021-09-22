@@ -1,0 +1,185 @@
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 1200px) {
+    html{
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    html{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    html{
+        font-size: 20px;
+    }
+}
+
+html, body {
+    height: 38.4rem;
+    width: 143.74rem;
+    font-family: Microsoft YaHei;
+}
+
+header {
+    width: 38.4rem;
+    height: 1.2rem;
+
+}
+
+.jump,.font2,.footer2,.aboutMore,.more, .detailedMore,.productMore,.newsFont2-3 ,.introduce > div,.problem,.problemFont2,.productFont {
+    text-align: center;
+}
+.logo {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 7.22rem;
+}
+.jump {
+    margin-top: -0.3rem;
+    width: 26.88rem;
+    float: right;
+}
+
+.jump > li {
+    display: inline;
+    line-height: 1.2rem;
+    font-size: 0.4rem;
+    font-weight: normal;
+    cursor: pointer;
+    padding-right: 0.01rem;
+}
+.jump >li> a{
+    color: #333333;
+}
+.jump>li>.cur{ color: #5dc533
+}
+.jump >li> a:hover {
+    color: #3488EA;
+    text-decoration: #3488EA;
+}
+
+
+.changeColor{
+    color: #3488EA;
+}
+.footer1{
+    width: 38.4rem;
+    height: 7.36rem;
+    background: #333333;
+    position: relative;
+    font-size: 0.36rem;
+    color: #FFFEFE;
+}
+.footer1-1{
+    position: absolute;
+    top: 3.15rem;
+    left: 8rem;
+}
+
+.footer1-01{
+    position: absolute;
+    top: -0.8rem;
+}
+.footer2-01,.footer3-01,.footer5-01{
+    position: absolute;
+    top: -0.88rem;
+}
+
+.footer4-01{
+    position: absolute;
+    top: -0.9rem;
+}
+.footer2-1{
+    position: absolute;
+    top: 3.15rem;
+    left: 11rem;
+}
+.footer3-1{
+    position: absolute;
+    top: 3.15rem;
+    left: 14rem;
+}
+.footer4-1{
+    position: absolute;
+    top: 3.15rem;
+    left: 17rem;
+}
+.footer5-1{
+    position: absolute;
+    top: 3.15rem;
+    left: 20rem;
+}
+.footer6-1{
+    position: absolute;
+    top: 1.95rem;
+    left: 28rem;
+}
+.footer6-1 > img {
+    width: 4rem;
+    height: 4rem;
+}
+.footer2{
+    width:38.4rem;;
+    height: 2.44rem;
+    line-height: 2.44rem;
+    background: #222222;
+    font-size: 0.26rem;
+    font-weight: 400;
+    color: #FEFEFE;
+    text-align: center;
+}
+
+
+.down {
+    position: absolute;
+    top: 32.3rem;
+    left: 14.6rem;
+    width: 15.36rem;
+    height: 0.68rem;
+
+}
+
+ul.down {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.down li {
+    display: inline;
+}
+
+ul.down li a {
+    color: #666666;
+    float: left;
+    font-size: 0.16rem;
+    margin-left: 0.2rem;
+    padding: 0.16rem 0.32rem;
+    text-decoration: none;
+}
+
+ul.down li a.active {
+    background: #FFFFFF;
+    color: #666666;
+    border: 0.02rem solid #E6E6E6;
+    border-radius: 0.1rem;
+}
+
+ul.down li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+ul.down li a.select {
+    background-color: #2e6da4;
+    color: #FFFFFF;
+}
